@@ -8,7 +8,7 @@ public class Main {
         Scanner input = new Scanner (System.in);
         int[] arr= new int[5];
         
-        // the will loop until five inputs are collected
+        // this will loop until five inputs are collected
         for(int i=0; i<arr.length;i++){
             System.out.println("enter the number:");
             arr[i]=input.nextInt();
@@ -22,6 +22,7 @@ public class Main {
         for(int i=0; i<arr.length; i++){
             System.out.println(arr[i]);
         }
+        System.out.println("the end");
     }
     
 }
