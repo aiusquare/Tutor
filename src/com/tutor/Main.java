@@ -23,6 +23,7 @@ public class Main {
             System.out.println(arr[i]);
         }
         System.out.println("the end");
+        System.out.println("Bye");
     }
     
 }
