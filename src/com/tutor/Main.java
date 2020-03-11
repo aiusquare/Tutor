@@ -1,9 +1,23 @@
 package com.tutor;
 
+import java.util.*;
+
 public class Main {
     
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        Scanner input = new Scanner (System.in);
+        int[] arr= new int[5];
+        
+        for(int i=0; i<arr.length;i++){
+            System.out.println("enter the number:");
+            arr[i]=input.nextInt();
+        }
+        System.out.println("The output");
+        
+        Arrays.sort(arr);
+        for(int i=0; i<arr.length; i++){
+            System.out.println(arr[i]);
+        }
     }
     
 }
